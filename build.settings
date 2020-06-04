@@ -1,0 +1,25 @@
+settings =
+{
+
+        android =
+        {
+                versionCode = "1"
+        },
+    
+        androidPermissions =
+        {
+                "android.permission.INTERNET",
+                "android.permission.WRITE_EXTERNAL_STORAGE",
+                "android.permission.DIRECTORY_RINGTONES",
+        },
+
+
+	orientation =
+ 	{
+		default = "landscapeRight",
+ 		supported =
+ 		{
+ 			"landscapeLeft", "landscapeRight"
+		}
+	},
+}
